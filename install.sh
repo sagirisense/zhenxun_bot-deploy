@@ -325,7 +325,7 @@ Exit_cqhttp() {
 Set_dependency() {
     cd ${work_dir}/zhenxun_bot
     Set_pip_Mirror
-    ${python_v} -m pip install --ignore-installed -r ${ghproxy}https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot-deploy/master/requirements.txt -i ${mirror_url}
+    ${python_v} -m pip install --ignore-installed -r ${ghproxy}https://raw.githubusercontent.com/sagirisense/zhenxun_bot-deploy/master/requirements.txt -i ${mirror_url}
     playwright install chromium
 }
 
