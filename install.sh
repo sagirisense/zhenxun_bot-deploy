@@ -2,8 +2,8 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
-update_shell_url="https://raw.githubusercontent.com/zhenxun-org/zhenxun_bot-deploy/master/install.sh"
-zhenxun_url="https://github.com/HibiKier/zhenxun_bot.git"
+update_shell_url="https://raw.githubusercontent.com/sagirisense/zhenxun_bot-deploy/master/install.sh"
+zhenxun_url="https://github.com/sagirisense/zhenxun_bot.git"
 work_dir="/home"
 python_v="python3.8"
 which python3.9 && python_v="python3.9"
